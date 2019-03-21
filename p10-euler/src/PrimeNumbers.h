@@ -2,12 +2,10 @@
 
 
 
-#include "RememberNumbers.h"
 
 #include "PrimeChecker.h"
 
 #include <climits>
-
 
 
 
