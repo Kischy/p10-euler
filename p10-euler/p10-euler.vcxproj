@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\IRememberNumbers.h" />
+    <ClInclude Include="src\PrimeChecker.h" />
+    <ClInclude Include="src\PrimeNumbers.h" />
+    <ClInclude Include="src\RememberNumbers.h" />
+    <ClInclude Include="src\SumPrimeNumbers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\p10-euler.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{497CF686-070F-4396-AD27-CC1F5BC7DAC4}</ProjectGuid>
@@ -151,9 +161,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="p10-euler.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
